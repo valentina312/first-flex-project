@@ -45,9 +45,11 @@ a {
     display: flex;
     height: 300px;
     color: #f9faf8;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 32px 62px;
+    flex: 1;
+    gap: 8px;
 }
 
 .one-left {
@@ -58,7 +60,7 @@ a {
 
 .main-title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
 }
 
 .main-text {
@@ -85,4 +87,61 @@ a {
     text-decoration: none;
     padding: 2px 16px;
     align-self: flex-start;
+}
+
+.cont-two {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px;
+    gap: 6px;
+    flex: 1;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards-container {
+    display: flex;
+    font-size: 14px;
+    gap: 16px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100px;
+}
+
+.cont-three {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.sign {
+    align-self: flex-end
 }
